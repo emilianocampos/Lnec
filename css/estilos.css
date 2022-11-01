@@ -119,6 +119,7 @@ main {
     display: flex;
     overflow: auto;
     gap: 20px;
+    padding: 30px;
 }
 
 
@@ -156,3 +157,29 @@ footer {
     display: flex;
     justify-content: center;
 }
+
+.lol {
+    transition-duration: 2s;
+}
+
+.lol:hover {
+
+    transform: rotate(360deg);
+    border-radius: 15px;
+
+
+}
+
+.lil {
+    transition-duration: 2s;
+}
+
+.lil:hover {
+    transform: rotate(360deg);
+    border-radius: 15px;
+
+}
+
+ h4{
+    text-align: center;
+ }
