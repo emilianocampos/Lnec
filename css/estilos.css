@@ -82,7 +82,7 @@ nav {
 
 nav>a {
     color: white;
-    font-weight: 300;
+    font-weight: 300px;
     text-decoration: none;
     margin-right: 10px;
     gap: 10px;
@@ -197,10 +197,19 @@ h4 {
 
 @media screen and (max-width: 900px) {
     header {
-        background-position: center;
+        background-position: center; 
+        background-size: 1000px;
+        background-repeat: no-repeat;
 
     }
+    .imggaleri {
+        width: 250px;
 
+    }
+    .tarjeta {
+        width: 290px;
+        height: 320px;
+    }
     .p {
         font-size: 1.5rem;
         padding: 50px;
@@ -268,4 +277,14 @@ h4 {
    header{
     background-size: 670px;
    }
+   .lol{
+    width: 35px;
+   }
+   .lil{
+    width: 35px;
+   }
+   .titlefinal {
+    font-size: 1rem;
+    text-align: center;
+}
 }
