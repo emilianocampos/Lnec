@@ -8,10 +8,12 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
 }
-.p{
+
+.p {
     font-size: 2rem;
     padding: 100px;
 }
+
 .imglogo {
     width: 10vw;
     display: flex;
@@ -30,9 +32,11 @@ body {
     font-size: 3rem;
     text-align: center;
     margin-bottom: 60px;
-    
+    padding: 100px;
+
 }
-.tituloa{
+
+.tituloa {
     color: hsla(0, 0%, 0%, 0.801);
     font-size: 3rem;
     text-align: center;
@@ -61,10 +65,11 @@ header {
 
 .imggaleri {
     width: 350px;
-    
+
 }
-.contenedorpadre{
-text-align: center;
+
+.contenedorpadre {
+    text-align: center;
 }
 
 
@@ -97,31 +102,35 @@ nav>a:hover {
     bottom: 0;
     width: 100%;
 }
+
 /*main*/
 main {
     background-color: hsl(316, 100%, 76%);
 }
 
-.tarjeta{
-   border: 2px solid black;
-   width: 380px;
-   height: 400px;
-   text-align: center;
-   background-color: rgb(190, 25, 177);
-   border-radius: 10px;
-   padding: 5px;
+.tarjeta {
+    border: 2px solid black;
+    width: 390px;
+    height: 420px;
+    text-align: center;
+    background-color: rgb(190, 25, 177);
+    border-radius: 10px;
+    padding: 5px;
 
-  display: flex;
-  flex-direction: column;
+    display: flex;
+    flex-direction: column;
 }
 
-.card{
+.card {
     display: flex;
     overflow: auto;
     gap: 20px;
     padding: 30px;
 }
 
+.pp {
+    font-size: 1.5rem;
+}
 
 
 
@@ -180,6 +189,83 @@ footer {
 
 }
 
- h4{
+h4 {
     text-align: center;
- }
+}
+
+/*Media*/
+
+@media screen and (max-width: 900px) {
+    header {
+        background-position: center;
+
+    }
+
+    .p {
+        font-size: 1.5rem;
+        padding: 50px;
+    }
+
+    .titulo {
+        font-size: 2rem;
+        padding: 30px;
+    }
+
+    .tituloa {
+        font-size: 2rem;
+    }
+
+    .pp {
+        font-size: 1.2rem;
+    }
+
+    nav {
+        text-align: center;
+    }
+
+    .contenedorfooter {
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .conteer {
+        display: flex;
+    }
+
+    .titlefinal {
+        font-size: 1.2rem;
+    }
+
+    h4 {
+        font-size: 1rem;
+    }
+
+    p {
+        font-size: 0.9rem;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .imggaleri {
+        width: 250px;
+
+    }
+
+    .tarjeta {
+        width: 290px;
+        height: 320px;
+    }
+    h4 {
+        font-size: 0.9rem;
+    }
+
+    p {
+        font-size: 0.8rem;
+    }
+    .titlefinal{
+        font-size: 1rem;
+    }
+   header{
+    background-size: 670px;
+   }
+}
