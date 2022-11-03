@@ -10,12 +10,12 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.logo{
-width: 250px;
-border-radius: 400px;
+.logo {
+    width: 250px;
+    border-radius: 400px;
 }
 
-.contlogo{
+.contlogo {
     background-color: white;
     width: 100px;
     height: 150px;
@@ -36,10 +36,12 @@ border-radius: 400px;
     width: 300px;
     height: 320px;
 }
-.go{
+
+.go {
     width: 300px;
     height: 345px;
 }
+
 .contenedro {
     padding: 60px 0;
     width: 90%;
@@ -58,13 +60,13 @@ border-radius: 400px;
 }
 
 .tituloa {
-    color: hsla(0, 0%, 0%, 0.801);
+    color: hsla(0, 0%, 100%, 0.801);
     font-size: 3rem;
     text-align: center;
     padding-top: 200px;
     padding-bottom: 100px;
     text-decoration: underline;
-    
+
 }
 
 /*Header*/
@@ -282,11 +284,11 @@ h4 {
 }
 
 @media screen and (max-width: 500px) {
-    .imggaleri {
-        width: 250px;
-
+    .gg {
+        width: 205px;
+        height: 200px;
     }
-
+   
     .tarjeta {
         width: 290px;
         height: 320px;
@@ -330,14 +332,19 @@ h4 {
     text-align: center;
     padding: 130px;
     text-decoration: underline;
-    
+
 }
-.gogo{
+
+.gogo {
     width: 300px;
-    
+
 }
-.goga{
+
+.goga {
     width: 220px;
+}
+.box{
+    width: 340px;
 }
 .grid-item {
     font-size: 2rem;
@@ -365,14 +372,104 @@ h4 {
     padding: 50px;
 }
 
-.tarjeto{
+.tarjeto {
     width: 400px;
     height: 500px;
     display: flex;
     flex-direction: column;
 }
-.divsect{
+
+.divsect {
     text-align: center;
     font-size: 3rem;
+
+}
+
+.naver {
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+    gap: 30px;
+}
+
+@media screen and (max-width: 900px) {
+    .naver {
+        display: flex;
+        justify-content: center;
+        font-size: 1rem;
+        gap: 3px;
+        text-align: center;
+        padding: 0 30px;
+    }
+    .logo {
+        width: 150px;
+        border-radius: 400px;
+    }
     
+    .contlogo {
+        background-color: white;
+        width: 50px;
+        height: 91px;
+    }
+    .gogo {
+        width: 220px;
+    
+    }
+    
+    .goga {
+        width: 170px;
+    }
+    .go{
+        width: 200px;
+        height: 220px;
+    }
+    .box{
+        width: 240px;
+    }
+    .grid-item {
+        font-size: 1.rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+        background-color: rgb(190, 25, 177);
+        border-radius: 4px;
+        transition: transform 0.3s ease-in-out;
+    
+        border: solid 3px rgb(0, 0, 0);
+    }
+    
+    .grid-item:hover {
+        filter: opacity(0.9);
+        transform: scale(1.04);
+    }
+    
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        grid-auto-rows: minmax(400px, auto);
+        gap: 1px;
+        padding: 20px 62px;
+       
+       
+    }
+    
+    .tarjeto {
+        width: 250px;
+        height: 350px;
+        display: flex;
+        flex-direction: column;
+        
+    }
+    
+    .divsect {
+        text-align: center;
+        font-size: 3rem;
+    
+    }
+    .titulob {
+        
+        font-size: 2.5rem;
+       
+    }
 }
