@@ -110,6 +110,7 @@ header {
 
 .contenedorpadre {
     text-align: center;
+  
 }
 
 
@@ -421,7 +422,9 @@ h4 {
     width: 390px;
     height: 400px;
 }
-
+.gar{
+width: 120px;
+}
 .box {
     width: 340px;
 }
@@ -568,7 +571,9 @@ h4 {
         font-size: 2.5rem;
         padding: 30px;
     }
-   
+    .gar{
+        width: 90px;
+        }
 }
 
 @media screen and (max-width: 500px) {
@@ -590,6 +595,11 @@ h4 {
         text-align: center;
         
     }  
-    
+    .gar{
+        width: 100px;
+        height: 230px;
+        }
 }
+
+
 
